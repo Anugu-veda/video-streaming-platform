@@ -1,8 +1,8 @@
-Video Streaming Platform
+#Video Streaming Platform
 
 A web-based Video Streaming Platform built using Python, Flask, SQLite, HTML, and CSS.
 
-Features
+##Features
 
 - User Signup
 - User Login
@@ -13,7 +13,7 @@ Features
 - SQLite Database Integration
 - Protected Routes
 
-Technologies Used
+##Technologies Used
 
 - Python
 - Flask
@@ -21,7 +21,7 @@ Technologies Used
 - HTML
 - CSS
 
-Installation
+##Installation
 
 1. Clone the repository
 
@@ -39,7 +39,7 @@ python app.py
 
 http://127.0.0.1:5000
 
-Project Structure
+##Project Structure
 
 - app.py
 - templates/
@@ -47,6 +47,6 @@ Project Structure
 - uploads/
 - videos.db
 
-Author
+##Author
 
 Anugu veda
