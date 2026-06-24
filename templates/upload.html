@@ -1,0 +1,57 @@
+<!-- 
+ -->
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Video</title>
+</head>
+<body>
+
+    <h1>Upload Video</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="video">
+        <button type="submit">Upload</button>
+    </form>
+
+    <br>
+
+    <a href="/">Back to Home</a>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Video</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Upload Video</h1>
+
+<form method="POST" enctype="multipart/form-data">
+
+    <input type="file" name="video">
+
+    <br><br>
+
+    <button type="submit">
+        Upload
+    </button>
+
+</form>
+
+<br>
+
+<a href="/">
+    <button>Home</button>
+</a>
+
+</body>
+</html>
